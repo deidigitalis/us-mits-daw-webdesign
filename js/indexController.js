@@ -1,5 +1,8 @@
 'use strict';
 
+/**
+ * Index controller
+ */
 function indexController() {
   var controller = this;
 
@@ -7,7 +10,10 @@ function indexController() {
   controller.backgroundImage = 'Quijote_Grandville';
   controller.noChapters = 10;
 
-  controller.onInit = function () {
+  /**
+   * Set all the jquery selectors
+   */
+  var setSelectors = function () {
     controller.selectNotification = $('#selectNotification');
     controller.bookTitle = $('#bookTitle');
     controller.bookBody = $('#bookBody');
@@ -15,14 +21,22 @@ function indexController() {
     controller.chapterHeader = $('#chapterHeader');
     controller.chapterTitle = $('#chapterTitle');
     controller.chapterNumber = $('#chapterNumber');
-    controller.chapterList = $('#chapterList')
+    controller.chapterList = $('#chapterList');
+  };
 
-    var body = $('body');
-
+  /**
+   * Initializes the book title for reseting the page to an initial state
+   */
+  var initializeBookTitle = function () {
     controller.bookTitle
-	  .html(controller.title)
-	  .click({}, controller.resetContent);
+      .html(controller.title)
+      .click({}, controller.resetContent);
+  };
 
+  /**
+   * Initializes the main menu with the chapter entries
+   */
+  var initializeMenu = function () {
     for (var index = 0; index < controller.noChapters; index++) {
       var chapterNumber = index + 1;
       var chapterName = 'Cap&iacute;tulo ' + chapterNumber;
@@ -36,10 +50,21 @@ function indexController() {
 
       controller.chapterList.append(li);
     }
+  };
 
+  /**
+   * Initializes the controller, this is 1st function to be called
+   */
+  controller.onInit = function () {
+    setSelectors();
+    initializeBookTitle();
+    initializeMenu();
     controller.resetContent();
   };
 
+  /**
+   * Changes the elements of the DOM for reseting the page to an initial state
+   */
   controller.resetContent = function () {
     controller.selectNotification.show();
     controller.chapterHeader.hide();
@@ -47,6 +72,9 @@ function indexController() {
     controller.bookBody.empty();
   }
 
+  /**
+   * Event called when the user changes the chapter in the menu
+   */
   controller.onSelectChapter = function (event) {
     var data = event.data;
 
