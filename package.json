@@ -9,6 +9,8 @@
   "author": "Pablo Caballero https://www.linkedin.com/in/pcaballero/",
   "license": "ISC",
   "devDependencies": {
+  },
+  "dependencies": {
     "bootstrap": "^3.3.7",
     "jquery": "^3.2.1",
     "jquery-address": "^1.6.0"
