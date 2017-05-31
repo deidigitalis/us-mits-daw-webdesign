@@ -1,5 +1,7 @@
 'use strict';
 
+/*global $:true*/
+
 var app = {};
 
 app.handleRequest = function (event, controllerName) {

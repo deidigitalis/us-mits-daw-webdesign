@@ -1,5 +1,7 @@
 'use strict';
 
+/*global $ app:true*/
+
 /**
  * Index controller
  */
@@ -84,7 +86,7 @@ function indexController() {
 
     var book = app.book['quijote'];
 
-    if (!!book) {
+    if (book) {
       var chapterFilter = book.filter(function (valuePair) {
         return valuePair.key === data.number;
       });
@@ -108,4 +110,4 @@ function indexController() {
       controller.chapterHeader.show();
     }
   };
-};
+}

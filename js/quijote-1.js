@@ -1,6 +1,8 @@
 (function () {
   'use strict';
 
+    /*global app:true*/
+
   var title = 'Que trata de la condici&oacute;n y ejercicio del famoso hidalgo D. Quijote de la Mancha';
 
   var chapter = [];

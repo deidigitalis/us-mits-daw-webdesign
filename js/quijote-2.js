@@ -1,6 +1,8 @@
 (function () {
   'use strict';
 
+    /*global app:true*/
+
   var title = 'Que trata de la primera salida que de su tierra hizo el ingenioso D. Quijote';
 
   var chapter = [];
