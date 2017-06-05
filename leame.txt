@@ -1,0 +1,53 @@
+Tecnologías utilizadas:
+
+1.- Manejadores de paquetes:
+	- NodeJS v6.10.3
+		- Descarga: https://nodejs.org/es/download/
+		- Descripción: Manejador de paquetes para poder descargar las librerías de terceros como por ejemplo jQuery.
+	- Yarn v0.24.6
+		- https://yarnpkg.com/en/docs/install
+		- Descripción: Manejador de paquetes que necesita como base NodeJS para gestionar las dependencias entre paquetes.
+
+2.- Librerías JavaScript
+	- jQuery v3.2.1:
+		- Descarga:
+			- Página oficial: https://jquery.com/
+			- Página del paquete: https://www.npmjs.com/package/jquery
+		- Descripción: Librería JavaScript para el acceso y modificación a los elementos del DOM.
+	- jQuery-address v1.6.0
+		- Descarga:
+			- Página oficial: http://www.asual.com/jquery/address/
+			- Página del paquete: https://www.npmjs.com/package/jquery-address
+		- Descripción: Librería JavaScript que permite escuchar los cambios en la dirección para poder seleccionar el controlador oportuno (solamente hay uno).
+
+3.- Librería JavaScript & Estilos CSS:
+	- Bootstrap v3.3.7:
+		- Descarga:
+			- Página oficial: http://getbootstrap.com/
+			- Página del paquete: https://www.npmjs.com/package/bootstrap
+		- Descripción: Librería de estilos.
+
+4.- Control de la calidad del código JavaScript:
+	- ESLint
+		- Página oficial: http://eslint.org/
+		- Descripción: Se utiliza un archivo de configuración para controlar la calidad del código JavaScript según ciertos estándares.
+	- VS Code ESLint extension v1.2.11
+		- Descarga (página oficial): https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+		- Descripción: Se utiliza para que detecte los fallos de calidad en el código JavaScript.
+
+5.- Entorno de desarrollo
+	- Visual Studio Code v1.12
+		- Descarga (página oficial): https://code.visualstudio.com/
+		- Descripción: Entorno de desarrollo utilizado para la descarga.
+
+6.- Página publicada:
+	- URL: http://pcaballero-daw.azurewebsites.net/
+	- Plataforma: Microsft Azure (App Service).
+	
+7.- Para probarlo:
+	- Opción 1: Abrir el archivo index.html en el navegador:
+	- Opción 2: Acceder a la url pcaballero-daw.azurewebsites.net
+
+Autor: Pablo Caballero Pérez (pabcabper@alum.us.es) https://es.linkedin.com/in/pcaballero
+Fecha: 05 de junio de 2017
+Desarrollo de Aplicaciones Web (2016-2017). Máster Ingeniería y Tecnología del Software, Universidad de Sevilla
