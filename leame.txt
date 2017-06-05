@@ -1,3 +1,12 @@
+Autor: Pablo Caballero Pérez (pabcabper@alum.us.es) https://es.linkedin.com/in/pcaballero
+Fecha: 05 de junio de 2017
+Desarrollo de Aplicaciones Web (2016-2017). Máster Ingeniería y Tecnología del Software, Universidad de Sevilla
+
+Descripción:
+
+	La web desarrollada muestra una aplicación web básica sobre el libro "El Quijote" donde se pude acceder al contenido de los capítulos 1 y 2.
+	Consta de un único archivo index.html que carga un controlador de JavaScript para convertirla en dinámica.
+
 Tecnologías utilizadas:
 
 1.- Manejadores de paquetes:
@@ -47,7 +56,3 @@ Tecnologías utilizadas:
 7.- Para probarlo:
 	- Opción 1: Abrir el archivo index.html en el navegador:
 	- Opción 2: Acceder a la url pcaballero-daw.azurewebsites.net
-
-Autor: Pablo Caballero Pérez (pabcabper@alum.us.es) https://es.linkedin.com/in/pcaballero
-Fecha: 05 de junio de 2017
-Desarrollo de Aplicaciones Web (2016-2017). Máster Ingeniería y Tecnología del Software, Universidad de Sevilla
